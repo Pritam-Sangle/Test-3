@@ -1,5 +1,7 @@
 hungry=input("are you hungry?")
 if hungry == 'yes':
-    print("Eat samosa")
+    print("Eat your mealbox.")
+elif hungry == 'no':
+    print("do your homework.")
 else:
-    print("do your homework")
+    print("you are confused.")
